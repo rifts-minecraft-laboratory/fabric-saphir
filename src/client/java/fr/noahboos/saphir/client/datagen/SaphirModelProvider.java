@@ -1,6 +1,7 @@
 package fr.noahboos.saphir.client.datagen;
 
 import fr.noahboos.saphir.Saphir;
+import fr.noahboos.saphir.blocks.SaphirBlocks;
 import fr.noahboos.saphir.items.SaphirItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
@@ -16,7 +17,9 @@ public class SaphirModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         Saphir.LOGGER.info("Generating {}'s block models.", Saphir.MOD_ID);
-        //
+        blockModelGenerators.createTrivialCube(SaphirBlocks.BLUE_SAPPHIRE_BLOCK);
+        blockModelGenerators.createTrivialCube(SaphirBlocks.BLUE_SAPPHIRE_ORE);
+        blockModelGenerators.createTrivialCube(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE);
         Saphir.LOGGER.info("Generated {}'s block models.", Saphir.MOD_ID);
     }
 

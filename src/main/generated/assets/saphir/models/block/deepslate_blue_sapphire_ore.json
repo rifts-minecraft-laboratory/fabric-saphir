@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "saphir:block/deepslate_blue_sapphire_ore"
+  }
+}

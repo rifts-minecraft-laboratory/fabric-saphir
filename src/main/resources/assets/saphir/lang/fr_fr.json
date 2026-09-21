@@ -1,3 +1,6 @@
 {
-  "item.saphir.blue_sapphire": "Saphir"
+  "item.saphir.blue_sapphire": "Saphir",
+  "block.saphir.blue_sapphire_block": "Bloc de saphir",
+  "block.saphir.blue_sapphire_ore": "Minerai de saphir",
+  "block.saphir.deepslate_blue_sapphire_ore": "Minerai de saphir des abîmes"
 }
