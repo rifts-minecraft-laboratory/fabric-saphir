@@ -1,8 +1,13 @@
 package fr.noahboos.saphir.client.datagen;
 
 import fr.noahboos.saphir.Saphir;
+import fr.noahboos.saphir.worldgen.features.configured.SaphirConfiguredFeatures;
+import fr.noahboos.saphir.worldgen.features.placed.SaphirPlacedFeatures;
+import fr.noahboos.saphir.worldgen.SaphirWorldgenProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.core.RegistrySetBuilder;
+import net.minecraft.core.registries.Registries;
 
 public class SaphirDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -11,6 +16,13 @@ public class SaphirDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(SaphirModelProvider::new);
+		pack.addProvider(SaphirWorldgenProvider::new);
 		Saphir.LOGGER.info("Initialized {}'s datagen.", Saphir.MOD_ID);
+	}
+
+	@Override
+	public void buildRegistry(RegistrySetBuilder registrySetBuilder) {
+		registrySetBuilder.add(Registries.CONFIGURED_FEATURE, SaphirConfiguredFeatures::bootstrap);
+		registrySetBuilder.add(Registries.PLACED_FEATURE, SaphirPlacedFeatures::bootstrap);
 	}
 }

@@ -2,6 +2,7 @@ package fr.noahboos.saphir;
 
 import fr.noahboos.saphir.blocks.SaphirBlocks;
 import fr.noahboos.saphir.items.SaphirItems;
+import fr.noahboos.saphir.worldgen.SaphirWorldgen;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -19,6 +20,7 @@ public class Saphir implements ModInitializer {
 		LOGGER.info("Initializing {} on the server side.", MOD_ID);
 		SaphirBlocks.initialize();
 		SaphirItems.initialize();
+		SaphirWorldgen.initialize();
 		LOGGER.info("Initialized {} on the server side.", MOD_ID);
 	}
 
