@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "saphir",
+	"version": "${version}",
+	"name": "Saphir",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Noah Boos (Propzonzon) (Rift)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "RSAPLv1.0",
+	"icon": "assets/saphir/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.noahboos.saphir.Saphir"
+		],
+		"client": [
+			"fr.noahboos.saphir.client.SaphirClient"
+		],
+		"fabric-datagen": [
+			"fr.noahboos.saphir.client.SaphirDataGenerator"
+		]
+	},
+	"mixins": [
+		"saphir.mixins.json",
+		{
+			"config": "saphir.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
