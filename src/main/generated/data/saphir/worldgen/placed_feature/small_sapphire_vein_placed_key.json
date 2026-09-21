@@ -19,12 +19,12 @@
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:biased_to_bottom",
-        "inner": 8,
+        "inner": 12,
         "max_inclusive": {
-          "absolute": 16
+          "absolute": 8
         },
         "min_inclusive": {
-          "above_bottom": 24
+          "above_bottom": 16
         }
       }
     }

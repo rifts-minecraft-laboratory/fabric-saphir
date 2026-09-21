@@ -25,9 +25,9 @@ public class OrePlacedFeatures {
                 InSquarePlacement.spread(),
                 HeightRangePlacement.of(
                     BiasedToBottomHeight.of(
-                        VerticalAnchor.aboveBottom(24),
+                        VerticalAnchor.aboveBottom(20),
                         VerticalAnchor.absolute(16),
-                        12
+                        8
                     )
                 )
             )
@@ -42,9 +42,9 @@ public class OrePlacedFeatures {
                 InSquarePlacement.spread(),
                 HeightRangePlacement.of(
                     BiasedToBottomHeight.of(
-                        VerticalAnchor.aboveBottom(24),
-                        VerticalAnchor.absolute(16),
-                        8
+                        VerticalAnchor.aboveBottom(16),
+                        VerticalAnchor.absolute(8),
+                        12
                     )
                 )
             )
@@ -59,9 +59,9 @@ public class OrePlacedFeatures {
                 InSquarePlacement.spread(),
                 HeightRangePlacement.of(
                     BiasedToBottomHeight.of(
-                        VerticalAnchor.aboveBottom(24),
-                        VerticalAnchor.absolute(16),
-                        4
+                        VerticalAnchor.aboveBottom(8),
+                        VerticalAnchor.absolute(-8),
+                        16
                     )
                 )
             )
@@ -76,9 +76,9 @@ public class OrePlacedFeatures {
                 InSquarePlacement.spread(),
                 HeightRangePlacement.of(
                     BiasedToBottomHeight.of(
-                        VerticalAnchor.aboveBottom(24),
-                        VerticalAnchor.absolute(16),
-                        4
+                        VerticalAnchor.aboveBottom(12),
+                        VerticalAnchor.absolute(-32),
+                        12
                     )
                 )
             )
@@ -88,14 +88,14 @@ public class OrePlacedFeatures {
             configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.EXTRA_LARGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
             List.of(
                 CountPlacement.of(2),
-                RarityFilter.onAverageOnceEvery(12),
+                RarityFilter.onAverageOnceEvery(6),
                 BiomeFilter.biome(),
                 InSquarePlacement.spread(),
                 HeightRangePlacement.of(
                     BiasedToBottomHeight.of(
-                        VerticalAnchor.aboveBottom(24),
-                        VerticalAnchor.absolute(16),
-                        4
+                        VerticalAnchor.aboveBottom(8),
+                        VerticalAnchor.absolute(-40),
+                        8
                     )
                 )
             )
