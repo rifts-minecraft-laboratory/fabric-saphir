@@ -1,5 +1,6 @@
 package fr.noahboos.saphir;
 
+import fr.noahboos.saphir.blocks.SaphirBlocks;
 import fr.noahboos.saphir.items.SaphirItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class Saphir implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing {} on the server side.", MOD_ID);
+		SaphirBlocks.initialize();
 		SaphirItems.initialize();
 		LOGGER.info("Initialized {} on the server side.", MOD_ID);
 	}
