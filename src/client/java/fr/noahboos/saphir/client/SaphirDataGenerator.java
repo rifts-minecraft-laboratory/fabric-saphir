@@ -1,6 +1,7 @@
-package fr.noahboos.saphir.client.datagen;
+package fr.noahboos.saphir.client;
 
 import fr.noahboos.saphir.Saphir;
+import fr.noahboos.saphir.client.models.SaphirModelProvider;
 import fr.noahboos.saphir.worldgen.features.configured.SaphirConfiguredFeatures;
 import fr.noahboos.saphir.worldgen.features.placed.SaphirPlacedFeatures;
 import fr.noahboos.saphir.worldgen.SaphirWorldgenProvider;

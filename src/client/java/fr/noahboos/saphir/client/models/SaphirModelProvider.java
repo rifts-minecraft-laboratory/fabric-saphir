@@ -1,4 +1,4 @@
-package fr.noahboos.saphir.client.datagen;
+package fr.noahboos.saphir.client.models;
 
 import fr.noahboos.saphir.Saphir;
 import fr.noahboos.saphir.blocks.SaphirBlocks;
