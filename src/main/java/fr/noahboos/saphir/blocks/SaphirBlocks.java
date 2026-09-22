@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 
 import java.util.function.Function;
 
@@ -45,18 +46,30 @@ public class SaphirBlocks {
     public static final Block BLUE_SAPPHIRE_BLOCK = register(
         SaphirBlockItemIds.BLUE_SAPPHIRE_BLOCK,
         Block::new,
-        BlockBehaviour.Properties.of().sound(SoundType.METAL)
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.LAPIS)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.METAL)
+            .strength(5.0f, 6.0f)
     );
 
     public static final Block BLUE_SAPPHIRE_ORE = register(
         SaphirBlockItemIds.BLUE_SAPPHIRE_ORE,
         Block::new,
-        BlockBehaviour.Properties.of().sound(SoundType.STONE)
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.STONE)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)
+            .strength(3.0f, 3.0f)
     );
 
     public static final Block DEEPSLATE_BLUE_SAPPHIRE_ORE = register(
         SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE,
         Block::new,
-        BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.DEEPSLATE)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.DEEPSLATE)
+            .strength(4.5f, 3.0f)
     );
 }
