@@ -2,6 +2,7 @@ package fr.noahboos.saphir.client;
 
 import fr.noahboos.saphir.Saphir;
 import fr.noahboos.saphir.client.models.SaphirModelProvider;
+import fr.noahboos.saphir.tags.SaphirBlockTagProvider;
 import fr.noahboos.saphir.worldgen.features.configured.SaphirConfiguredFeatures;
 import fr.noahboos.saphir.worldgen.features.placed.SaphirPlacedFeatures;
 import fr.noahboos.saphir.worldgen.SaphirWorldgenProvider;
@@ -16,6 +17,7 @@ public class SaphirDataGenerator implements DataGeneratorEntrypoint {
 		Saphir.LOGGER.info("Initializing {}'s datagen.", Saphir.MOD_ID);
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
+		pack.addProvider(SaphirBlockTagProvider::new);
 		pack.addProvider(SaphirModelProvider::new);
 		pack.addProvider(SaphirWorldgenProvider::new);
 		Saphir.LOGGER.info("Initialized {}'s datagen.", Saphir.MOD_ID);
