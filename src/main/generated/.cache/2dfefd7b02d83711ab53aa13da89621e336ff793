@@ -1,0 +1,6 @@
+// 26.2	-999999999-01-01T00:00:00	Saphir/Tags for minecraft:item
+a8f554eaa691b3e38517ca4a34d01905bdf93713 data/minecraft/tags/item/chest_armor.json
+5602a172d8bb086f0ef2b2a9f56e8565c9e922eb data/minecraft/tags/item/foot_armor.json
+f909432c1ba7e891baeff9289ab31bf2049ba605 data/minecraft/tags/item/head_armor.json
+541915daed45535aabc3cded5eb146cf155b4c29 data/minecraft/tags/item/leg_armor.json
+f693caaae05eb2ec5e7c7dc9443d6ad50c54202c data/saphir/tags/item/repairs_blue_sapphire_armor.json

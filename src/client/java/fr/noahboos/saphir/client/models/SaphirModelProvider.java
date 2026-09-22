@@ -27,6 +27,10 @@ public class SaphirModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         Saphir.LOGGER.info("Generating {}'s item models.", Saphir.MOD_ID);
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_HELMET, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_CHESTPLATE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_LEGGINGS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_BOOTS, ModelTemplates.FLAT_ITEM);
         Saphir.LOGGER.info("Generated {}'s item models.", Saphir.MOD_ID);
     }
 

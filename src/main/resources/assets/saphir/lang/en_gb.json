@@ -1,5 +1,9 @@
 {
   "item.saphir.blue_sapphire": "Sapphire",
+  "item.saphir.blue_sapphire_helmet": "Sapphire helmet",
+  "item.saphir.blue_sapphire_chestplate": "Sapphire chestplate",
+  "item.saphir.blue_sapphire_leggings": "Sapphire leggings",
+  "item.saphir.blue_sapphire_boots": "Sapphire boots",
   "block.saphir.blue_sapphire_block": "Sapphire block",
   "block.saphir.blue_sapphire_ore": "Sapphire ore",
   "block.saphir.deepslate_blue_sapphire_ore": "Deepslate sapphire ore"

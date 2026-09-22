@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "saphir:blue_sapphire"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "saphir:blue_sapphire"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "saphir:blue_sapphire"
+      }
+    ]
+  }
+}
