@@ -1,0 +1,4 @@
+// 26.2	-999999999-01-01T00:00:00	Saphir/Block Loot Tables
+e6124f1a0379401b98d993873b31392458ef4d51 data/saphir/loot_table/blocks/blue_sapphire_block.json
+a49f9ff0e094bce0241c6dfa9b506e20365f8eb6 data/saphir/loot_table/blocks/blue_sapphire_ore.json
+7c6333c4fee023904690daa1758f9e2a8c04d609 data/saphir/loot_table/blocks/deepslate_blue_sapphire_ore.json
