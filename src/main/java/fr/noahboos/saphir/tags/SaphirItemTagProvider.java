@@ -38,5 +38,23 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
         builder(ItemTags.FOOT_ARMOR)
             .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS);
+
+        builder(ItemTags.SWORDS)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SWORD);
+
+        builder(ItemTags.SPEARS)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SPEAR);
+
+        builder(ItemTags.PICKAXES)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_PICKAXE);
+
+        builder(ItemTags.AXES)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_AXE);
+
+        builder(ItemTags.SHOVELS)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SHOVEL);
+
+        builder(ItemTags.HOES)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_HOE);
     }
 }

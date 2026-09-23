@@ -16,4 +16,10 @@ public class SaphirItemIds {
     public static final ResourceKey<Item> BLUE_SAPPHIRE_CHESTPLATE = create("blue_sapphire_chestplate");
     public static final ResourceKey<Item> BLUE_SAPPHIRE_LEGGINGS = create("blue_sapphire_leggings");
     public static final ResourceKey<Item> BLUE_SAPPHIRE_BOOTS = create("blue_sapphire_boots");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_SWORD = create("blue_sapphire_sword");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_SPEAR = create("blue_sapphire_spear");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_PICKAXE = create("blue_sapphire_pickaxe");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_AXE = create("blue_sapphire_axe");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_SHOVEL = create("blue_sapphire_shovel");
+    public static final ResourceKey<Item> BLUE_SAPPHIRE_HOE = create("blue_sapphire_hoe");
 }
