@@ -3,6 +3,7 @@ package fr.noahboos.saphir.client;
 import fr.noahboos.saphir.Saphir;
 import fr.noahboos.saphir.client.loottables.SaphirBlockLootTableProvider;
 import fr.noahboos.saphir.client.models.SaphirModelProvider;
+import fr.noahboos.saphir.recipes.SaphirRecipeProvider;
 import fr.noahboos.saphir.tags.SaphirBlockTagProvider;
 import fr.noahboos.saphir.tags.SaphirItemTagProvider;
 import fr.noahboos.saphir.worldgen.features.configured.SaphirConfiguredFeatures;
@@ -23,6 +24,7 @@ public class SaphirDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(SaphirBlockTagProvider::new);
 		pack.addProvider(SaphirItemTagProvider::new);
 		pack.addProvider(SaphirModelProvider::new);
+		pack.addProvider(SaphirRecipeProvider::new);
 		pack.addProvider(SaphirWorldgenProvider::new);
 		Saphir.LOGGER.info("Initialized {}'s datagen.", Saphir.MOD_ID);
 	}
