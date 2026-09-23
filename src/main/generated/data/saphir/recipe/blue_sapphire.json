@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "saphir:blue_sapphire_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "saphir:blue_sapphire"
+  }
+}
