@@ -12,5 +12,6 @@
   "item.saphir.blue_sapphire_hoe": "Houe en saphir",
   "block.saphir.blue_sapphire_block": "Bloc de saphir",
   "block.saphir.blue_sapphire_ore": "Minerai de saphir",
-  "block.saphir.deepslate_blue_sapphire_ore": "Minerai de saphir des abîmes"
+  "block.saphir.deepslate_blue_sapphire_ore": "Minerai de saphir des abîmes",
+  "trim_material.saphir.blue_sapphire": "En saphir"
 }

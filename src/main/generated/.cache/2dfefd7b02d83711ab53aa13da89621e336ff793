@@ -9,4 +9,6 @@ f909432c1ba7e891baeff9289ab31bf2049ba605 data/minecraft/tags/item/head_armor.jso
 168316c6eaa556533b4bb9232d5b1a2f70cbdc83 data/minecraft/tags/item/shovels.json
 ae78ea7e1aa1e8e309c2f8004225ba91498b6ff6 data/minecraft/tags/item/spears.json
 a766c38a88094ee314e80273d330d01bb167d62c data/minecraft/tags/item/swords.json
+f693caaae05eb2ec5e7c7dc9443d6ad50c54202c data/minecraft/tags/item/trim_materials.json
+6a9a55f98f91614e5a426e0baa35f8d7aaa03f96 data/minecraft/tags/item/trimmable_armor.json
 f693caaae05eb2ec5e7c7dc9443d6ad50c54202c data/saphir/tags/item/repairs_blue_sapphire_armor.json

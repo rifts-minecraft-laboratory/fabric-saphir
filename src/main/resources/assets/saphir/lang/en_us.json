@@ -12,5 +12,6 @@
   "item.saphir.blue_sapphire_hoe": "Sapphire hoe",
   "block.saphir.blue_sapphire_block": "Sapphire block",
   "block.saphir.blue_sapphire_ore": "Sapphire ore",
-  "block.saphir.deepslate_blue_sapphire_ore": "Deepslate sapphire ore"
+  "block.saphir.deepslate_blue_sapphire_ore": "Deepslate sapphire ore",
+  "trim_material.saphir.blue_sapphire": "Sapphire material"
 }

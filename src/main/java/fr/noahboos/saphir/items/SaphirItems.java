@@ -3,6 +3,7 @@ package fr.noahboos.saphir.items;
 import fr.noahboos.saphir.Saphir;
 import fr.noahboos.saphir.items.definitions.materials.armor.BlueSapphireArmorMaterial;
 import fr.noahboos.saphir.items.definitions.materials.tool.BlueSapphireToolMaterial;
+import fr.noahboos.saphir.trims.SaphirTrimMaterials;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -48,6 +49,7 @@ public class SaphirItems {
         SaphirItemIds.BLUE_SAPPHIRE,
         Item::new,
         new Item.Properties()
+            .trimMaterial(SaphirTrimMaterials.BLUE_SAPPHIRE_TRIM_MATERIAL)
     );
 
     public static final Item BLUE_SAPPHIRE_HELMET = register(

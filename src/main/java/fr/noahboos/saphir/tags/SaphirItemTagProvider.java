@@ -56,5 +56,14 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
         builder(ItemTags.HOES)
             .add(SaphirItemIds.BLUE_SAPPHIRE_HOE);
+
+        builder(ItemTags.TRIMMABLE_ARMOR)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_HELMET)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_CHESTPLATE)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_LEGGINGS)
+            .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS);
+
+        builder(ItemTags.TRIM_MATERIALS)
+            .add(SaphirItemIds.BLUE_SAPPHIRE);
     }
 }
