@@ -12,7 +12,8 @@ The long-term goal is to give sapphire its own identity as a meaningful alternat
 
 Sapphire equipment should therefore have its own strengths and weaknesses, with statistics or mechanics that support specific playstyles. The goal is not to create a strictly superior material, but to offer a genuine choice.
 
-> If you’ve read this far, here’s a small teaser: I’m also working on another mod, Rubis, which will add… well, ruby. The idea is to create a duality between sapphire and ruby, where certain pieces of equipment from one material outperform their counterparts from the other.
+
+> If you've read this far, here is another mod, [*Rubis*](https://github.com/rifts-minecraft-laboratory/fabric-rubis). The idea is to create a duality between sapphire and ruby, where certain pieces of equipment from one material outperform their counterparts. Playing with both mods is therefore recommended. :3
 > 
 > Additionally, in a future update, other varieties of sapphire will be introduced, as sapphires can come in different colours!
 
@@ -26,7 +27,7 @@ This document has been written with the help of ChatGPT and Perplexity AI. Every
 
 ___
 
-If you read this far... I will teach you two things!
+If you have read this far... I will teach you two things!
 
 - First thing: *Saphir* is the French word for *Sapphire*.
 - Second thing: Sapphire belongs to the family of corundum (*Corindon*, in French). Every corundum that isn't red is called sapphires. Although we usually imagine sapphire as a blue gem, it therefore can be green, yellow, or whatever! As long as it isn't red, of course. It would be ruby, else.
