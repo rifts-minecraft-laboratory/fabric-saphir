@@ -3,7 +3,7 @@
 	"id": "saphir",
 	"version": "${version}",
 	"name": "Saphir",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Saphir is a Minecraft modifier that introduces a new resource: Sapphire.",
 	"authors": [
 		"Noah Boos (Propzonzon) (Rift)"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "RSAPLv1.0",
+	"license": "MIT",
 	"icon": "assets/saphir/icon.png",
 	"environment": "*",
 	"entrypoints": {
