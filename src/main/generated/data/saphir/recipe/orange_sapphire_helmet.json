@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": "saphir:orange_sapphire"
+  },
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "result": {
+    "id": "saphir:orange_sapphire_helmet"
+  }
+}

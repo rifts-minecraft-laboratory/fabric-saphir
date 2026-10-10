@@ -131,6 +131,36 @@ public class SaphirRecipeProvider extends FabricRecipeProvider {
                     .requires(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK)
                     .unlockedBy("has_blue_sapphire_block", has(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK))
                     .save(output);
+
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_HELMET, 1)
+                    .pattern("aaa")
+                    .pattern("a a")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_CHESTPLATE, 1)
+                    .pattern("a a")
+                    .pattern("aaa")
+                    .pattern("aaa")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_LEGGINGS, 1)
+                    .pattern("aaa")
+                    .pattern("a a")
+                    .pattern("a a")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_BOOTS, 1)
+                    .pattern("a a")
+                    .pattern("a a")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
             }
         };
     }
