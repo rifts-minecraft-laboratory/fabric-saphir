@@ -14,6 +14,9 @@
   "block.saphir.blue_sapphire_block": "Blue sapphire block",
   "block.saphir.blue_sapphire_ore": "Blue sapphire ore",
   "block.saphir.deepslate_blue_sapphire_ore": "Deepslate blue sapphire ore",
+  "block.saphir.orange_sapphire_block": "Orange sapphire block",
+  "block.saphir.orange_sapphire_ore": "Orange sapphire ore",
+  "block.saphir.deepslate_orange_sapphire_ore": "Deepslate orange sapphire ore",
   "trim_material.saphir.blue_sapphire": "Blue sapphire material",
   "trim_material.saphir.orange_sapphire": "Orange sapphire material"
 }

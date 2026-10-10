@@ -17,9 +17,16 @@ public class SaphirModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         Saphir.LOGGER.info("Generating {}'s block models.", Saphir.MOD_ID);
+        Saphir.LOGGER.info("Generating blue sapphire block models.");
         blockModelGenerators.createTrivialCube(SaphirBlocks.BLUE_SAPPHIRE_BLOCK);
         blockModelGenerators.createTrivialCube(SaphirBlocks.BLUE_SAPPHIRE_ORE);
         blockModelGenerators.createTrivialCube(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE);
+        Saphir.LOGGER.info("Generated blue sapphire block models.");
+        Saphir.LOGGER.info("Generating orange sapphire block models.");
+        blockModelGenerators.createTrivialCube(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK);
+        blockModelGenerators.createTrivialCube(SaphirBlocks.ORANGE_SAPPHIRE_ORE);
+        blockModelGenerators.createTrivialCube(SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE);
+        Saphir.LOGGER.info("Generated orange sapphire block models.");
         Saphir.LOGGER.info("Generated {}'s block models.", Saphir.MOD_ID);
     }
 

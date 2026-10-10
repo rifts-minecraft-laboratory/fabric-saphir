@@ -118,6 +118,19 @@ public class SaphirRecipeProvider extends FabricRecipeProvider {
                     .define('b', Items.STICK)
                     .unlockedBy("has_blue_sapphire", has(SaphirItems.BLUE_SAPPHIRE))
                     .save(output);
+
+                shaped(RecipeCategory.BUILDING_BLOCKS, SaphirBlocks.ORANGE_SAPPHIRE_BLOCK, 1)
+                    .pattern("aaa")
+                    .pattern("aaa")
+                    .pattern("aaa")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shapeless(RecipeCategory.MISC, SaphirItems.ORANGE_SAPPHIRE, 9)
+                    .requires(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK)
+                    .unlockedBy("has_blue_sapphire_block", has(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK))
+                    .save(output);
             }
         };
     }

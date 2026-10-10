@@ -21,10 +21,13 @@ public class SaphirBlocks {
         Saphir.LOGGER.info("Initializing {}'s blocks.", Saphir.MOD_ID);
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(creativeModeTab -> {
             creativeModeTab.accept(SaphirBlocks.BLUE_SAPPHIRE_BLOCK.asItem());
+            creativeModeTab.accept(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK.asItem());
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(creativeModeTab -> {
             creativeModeTab.accept(SaphirBlocks.BLUE_SAPPHIRE_ORE.asItem());
             creativeModeTab.accept(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE.asItem());
+            creativeModeTab.accept(SaphirBlocks.ORANGE_SAPPHIRE_ORE.asItem());
+            creativeModeTab.accept(SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE.asItem());
         });
         Saphir.LOGGER.info("Initialized {}'s blocks.", Saphir.MOD_ID);
     }
@@ -65,6 +68,36 @@ public class SaphirBlocks {
 
     public static final Block DEEPSLATE_BLUE_SAPPHIRE_ORE = register(
         SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE,
+        Block::new,
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.DEEPSLATE)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.DEEPSLATE)
+            .strength(4.5f, 3.0f)
+    );
+
+    public static final Block ORANGE_SAPPHIRE_BLOCK = register(
+        SaphirBlockItemIds.ORANGE_SAPPHIRE_BLOCK,
+        Block::new,
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.COLOR_ORANGE)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.METAL)
+            .strength(5.0f, 6.0f)
+    );
+
+    public static final Block ORANGE_SAPPHIRE_ORE = register(
+        SaphirBlockItemIds.ORANGE_SAPPHIRE_ORE,
+        Block::new,
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.STONE)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)
+            .strength(3.0f, 3.0f)
+    );
+
+    public static final Block DEEPSLATE_ORANGE_SAPPHIRE_ORE = register(
+        SaphirBlockItemIds.DEEPSLATE_ORANGE_SAPPHIRE_ORE,
         Block::new,
         BlockBehaviour.Properties.of()
             .mapColor(MapColor.DEEPSLATE)

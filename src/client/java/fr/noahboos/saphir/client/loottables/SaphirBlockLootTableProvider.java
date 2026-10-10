@@ -19,5 +19,11 @@ public class SaphirBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(SaphirBlocks.BLUE_SAPPHIRE_ORE, createOreDrop(SaphirBlocks.BLUE_SAPPHIRE_ORE, SaphirItems.BLUE_SAPPHIRE));
         dropWhenSilkTouch(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE);
         add(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE, createOreDrop(SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE, SaphirItems.BLUE_SAPPHIRE));
+
+        dropSelf(SaphirBlocks.ORANGE_SAPPHIRE_BLOCK);
+        dropWhenSilkTouch(SaphirBlocks.ORANGE_SAPPHIRE_ORE);
+        add(SaphirBlocks.ORANGE_SAPPHIRE_ORE, createOreDrop(SaphirBlocks.ORANGE_SAPPHIRE_ORE, SaphirItems.ORANGE_SAPPHIRE));
+        dropWhenSilkTouch(SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE);
+        add(SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE, createOreDrop(SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE, SaphirItems.ORANGE_SAPPHIRE));
     }
 }

@@ -1,5 +1,6 @@
 // 26.2	-999999999-01-01T00:00:00	Saphir/SaphirRecipeProvider
 75d75b98bd1fa09254a97389c6b6f48f13653b6b data/saphir/advancement/recipes/building_blocks/blue_sapphire_block.json
+9f390f6b1f44e2684781ef8e980ad3bfc7ec5157 data/saphir/advancement/recipes/building_blocks/orange_sapphire_block.json
 8bbeb8988f6a49696dfd40151d0fb661b33c0c89 data/saphir/advancement/recipes/combat/blue_sapphire_boots.json
 ef8068116e04fabb0919094210b7887e31d228b1 data/saphir/advancement/recipes/combat/blue_sapphire_chestplate.json
 9c8007133d9c0c9558b3c44c92bc1357b7dbca02 data/saphir/advancement/recipes/combat/blue_sapphire_helmet.json
@@ -7,6 +8,7 @@ ef8068116e04fabb0919094210b7887e31d228b1 data/saphir/advancement/recipes/combat/
 568b4fe3a80d54d3df7a002a14010a46990574a5 data/saphir/advancement/recipes/combat/blue_sapphire_spear.json
 a154979b6c17766a1bb78878180ac3e7a588d895 data/saphir/advancement/recipes/combat/blue_sapphire_sword.json
 0b41716b0c58c775f91705c953c12300cf158601 data/saphir/advancement/recipes/misc/blue_sapphire.json
+83ac609e80df50777ddb3be613dc5e34eca317e5 data/saphir/advancement/recipes/misc/orange_sapphire.json
 d83e92ce2ba72764b0a83a55a8c0f9a0ced0cce7 data/saphir/advancement/recipes/tools/blue_sapphire_axe.json
 dec63232da32b0f3c17d75cd5be5272cb0b21984 data/saphir/advancement/recipes/tools/blue_sapphire_hoe.json
 765f83c12608c63f95a59d63a915f9498fc5615c data/saphir/advancement/recipes/tools/blue_sapphire_pickaxe.json
@@ -23,3 +25,5 @@ b1b689fd769fc2960f38a9f1c4918f4892e8d65a data/saphir/recipe/blue_sapphire_leggin
 05a1e78040858ab06833287f1ca21f034b131c95 data/saphir/recipe/blue_sapphire_shovel.json
 162f87700a6380e876567a0db149d157b93937a1 data/saphir/recipe/blue_sapphire_spear.json
 5721c976528d178ecbf7d061299c27a24b38530d data/saphir/recipe/blue_sapphire_sword.json
+20f49e62bd8b3a1449cf4092e6626d90fc8df90c data/saphir/recipe/orange_sapphire.json
+cfad054fd250525a5a25c9f4c40b9870f1a04364 data/saphir/recipe/orange_sapphire_block.json

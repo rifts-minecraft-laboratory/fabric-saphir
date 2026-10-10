@@ -14,6 +14,9 @@
   "block.saphir.blue_sapphire_block": "Bloc de saphir bleu",
   "block.saphir.blue_sapphire_ore": "Minerai de saphir bleu",
   "block.saphir.deepslate_blue_sapphire_ore": "Minerai de saphir bleu des abîmes",
+  "block.saphir.orange_sapphire_block": "Bloc de saphir orange",
+  "block.saphir.orange_sapphire_ore": "Minerai de saphir orange",
+  "block.saphir.deepslate_orange_sapphire_ore": "Minerai de saphir orange des abîmes",
   "trim_material.saphir.blue_sapphire": "En saphir bleu",
   "trim_material.saphir.orange_sapphire": "En saphir orange"
 }

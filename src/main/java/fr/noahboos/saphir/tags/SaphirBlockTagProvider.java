@@ -30,11 +30,17 @@ public class SaphirBlockTagProvider extends FabricTagsProvider.BlockTagsProvider
         builder(BlockTags.MINEABLE_WITH_PICKAXE)
             .add(SaphirBlockItemIds.BLUE_SAPPHIRE_BLOCK)
             .add(SaphirBlockItemIds.BLUE_SAPPHIRE_ORE)
-            .add(SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE);
+            .add(SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE)
+            .add(SaphirBlockItemIds.ORANGE_SAPPHIRE_BLOCK)
+            .add(SaphirBlockItemIds.ORANGE_SAPPHIRE_ORE)
+            .add(SaphirBlockItemIds.DEEPSLATE_ORANGE_SAPPHIRE_ORE);
 
         builder(BlockTags.NEEDS_DIAMOND_TOOL)
             .add(SaphirBlockItemIds.BLUE_SAPPHIRE_BLOCK)
             .add(SaphirBlockItemIds.BLUE_SAPPHIRE_ORE)
-            .add(SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE);
+            .add(SaphirBlockItemIds.DEEPSLATE_BLUE_SAPPHIRE_ORE)
+            .add(SaphirBlockItemIds.ORANGE_SAPPHIRE_BLOCK)
+            .add(SaphirBlockItemIds.ORANGE_SAPPHIRE_ORE)
+            .add(SaphirBlockItemIds.DEEPSLATE_ORANGE_SAPPHIRE_ORE);
     }
 }
