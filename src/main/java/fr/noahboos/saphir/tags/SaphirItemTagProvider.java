@@ -22,22 +22,34 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
         Saphir.id("repairs_blue_sapphire_armor")
     );
 
+    public static final TagKey<Item> REPAIRS_ORANGE_SAPPHIRE_ARMOR = TagKey.create(
+        Registries.ITEM,
+        Saphir.id("repairs_orange_sapphire_armor")
+    );
+
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         builder(REPAIRS_BLUE_SAPPHIRE_ARMOR)
             .add(SaphirItemIds.BLUE_SAPPHIRE);
 
+        builder(REPAIRS_ORANGE_SAPPHIRE_ARMOR)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE);
+
         builder(ItemTags.HEAD_ARMOR)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_HELMET);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_HELMET)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_HELMET);
 
         builder(ItemTags.CHEST_ARMOR)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_CHESTPLATE);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_CHESTPLATE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_CHESTPLATE);
 
         builder(ItemTags.LEG_ARMOR)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_LEGGINGS);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_LEGGINGS)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_LEGGINGS);
 
         builder(ItemTags.FOOT_ARMOR)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_BOOTS);
 
         builder(ItemTags.SWORDS)
             .add(SaphirItemIds.BLUE_SAPPHIRE_SWORD);
@@ -61,7 +73,11 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
             .add(SaphirItemIds.BLUE_SAPPHIRE_HELMET)
             .add(SaphirItemIds.BLUE_SAPPHIRE_CHESTPLATE)
             .add(SaphirItemIds.BLUE_SAPPHIRE_LEGGINGS)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_HELMET)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_CHESTPLATE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_LEGGINGS)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_BOOTS);
 
         builder(ItemTags.TRIM_MATERIALS)
             .add(SaphirItemIds.BLUE_SAPPHIRE)

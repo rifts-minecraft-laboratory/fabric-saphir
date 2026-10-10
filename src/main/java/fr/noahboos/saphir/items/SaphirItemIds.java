@@ -24,4 +24,8 @@ public class SaphirItemIds {
     public static final ResourceKey<Item> BLUE_SAPPHIRE_HOE = create("blue_sapphire_hoe");
 
     public static final ResourceKey<Item> ORANGE_SAPPHIRE = create("orange_sapphire");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_HELMET = create("orange_sapphire_helmet");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_CHESTPLATE = create("orange_sapphire_chestplate");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_LEGGINGS = create("orange_sapphire_leggings");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_BOOTS = create("orange_sapphire_boots");
 }

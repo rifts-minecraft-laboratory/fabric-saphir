@@ -2,6 +2,7 @@ package fr.noahboos.saphir.items;
 
 import fr.noahboos.saphir.Saphir;
 import fr.noahboos.saphir.items.definitions.materials.armor.BlueSapphireArmorMaterial;
+import fr.noahboos.saphir.items.definitions.materials.armor.OrangeSapphireArmorMaterial;
 import fr.noahboos.saphir.items.definitions.materials.tool.BlueSapphireToolMaterial;
 import fr.noahboos.saphir.trims.SaphirTrimMaterials;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
@@ -30,6 +31,10 @@ public class SaphirItems {
             creativeModeTab.accept(BLUE_SAPPHIRE_SWORD);
             creativeModeTab.accept(BLUE_SAPPHIRE_SPEAR);
             creativeModeTab.accept(BLUE_SAPPHIRE_AXE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_HELMET);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_CHESTPLATE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_LEGGINGS);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_BOOTS);
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(creativeModeTab -> {
             creativeModeTab.accept(BLUE_SAPPHIRE);
@@ -129,5 +134,37 @@ public class SaphirItems {
         Item::new,
         new Item.Properties()
             .trimMaterial(SaphirTrimMaterials.ORANGE_SAPPHIRE_TRIM_MATERIAL)
+    );
+
+    public static final Item ORANGE_SAPPHIRE_HELMET = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_HELMET,
+        Item::new,
+        new Item.Properties()
+            .humanoidArmor(OrangeSapphireArmorMaterial.INSTANCE, ArmorType.HELMET)
+            .durability(ArmorType.HELMET.getDurability(OrangeSapphireArmorMaterial.BASE_DURABILITY))
+    );
+
+    public static final Item ORANGE_SAPPHIRE_CHESTPLATE = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_CHESTPLATE,
+        Item::new,
+        new Item.Properties()
+            .humanoidArmor(OrangeSapphireArmorMaterial.INSTANCE, ArmorType.CHESTPLATE)
+            .durability(ArmorType.CHESTPLATE.getDurability(OrangeSapphireArmorMaterial.BASE_DURABILITY))
+    );
+
+    public static final Item ORANGE_SAPPHIRE_LEGGINGS = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_LEGGINGS,
+        Item::new,
+        new Item.Properties()
+            .humanoidArmor(OrangeSapphireArmorMaterial.INSTANCE, ArmorType.LEGGINGS)
+            .durability(ArmorType.LEGGINGS.getDurability(OrangeSapphireArmorMaterial.BASE_DURABILITY))
+    );
+
+    public static final Item ORANGE_SAPPHIRE_BOOTS = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_BOOTS,
+        Item::new,
+        new Item.Properties()
+            .humanoidArmor(OrangeSapphireArmorMaterial.INSTANCE, ArmorType.BOOTS)
+            .durability(ArmorType.BOOTS.getDurability(OrangeSapphireArmorMaterial.BASE_DURABILITY))
     );
 }
