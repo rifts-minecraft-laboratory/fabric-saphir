@@ -23,11 +23,22 @@ public class OreConfiguredFeatures {
             OreConfiguration.target(deepslateReplaceableRule, SaphirBlocks.DEEPSLATE_BLUE_SAPPHIRE_ORE.defaultBlockState())
         );
 
+        List<OreConfiguration.TargetBlockState> oreOrangeSapphireTargetList = List.of(
+            OreConfiguration.target(stoneReplaceableRule, SaphirBlocks.ORANGE_SAPPHIRE_ORE.defaultBlockState()),
+            OreConfiguration.target(deepslateReplaceableRule, SaphirBlocks.DEEPSLATE_ORANGE_SAPPHIRE_ORE.defaultBlockState())
+        );
+
         context.register(EXTRA_SMALL_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreBlueSapphireTargetList, 1)));
         context.register(SMALL_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreBlueSapphireTargetList, 2)));
         context.register(MEDIUM_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreBlueSapphireTargetList, 4, 0.25f)));
         context.register(LARGE_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreBlueSapphireTargetList, 6, 0.75f)));
         context.register(EXTRA_LARGE_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreBlueSapphireTargetList, 8, 0.95f)));
+
+        context.register(EXTRA_SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreOrangeSapphireTargetList, 1)));
+        context.register(SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreOrangeSapphireTargetList, 2)));
+        context.register(MEDIUM_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreOrangeSapphireTargetList, 4, 0.25f)));
+        context.register(LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreOrangeSapphireTargetList, 6, 0.75f)));
+        context.register(EXTRA_LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreOrangeSapphireTargetList, 8, 0.95f)));
     }
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> EXTRA_SMALL_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("extra_small_blue_sapphire_vein_configured_key");
@@ -35,4 +46,10 @@ public class OreConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> MEDIUM_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("medium_blue_sapphire_vein_configured_key");
     public static final ResourceKey<ConfiguredFeature<?, ?>> LARGE_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("large_blue_sapphire_vein_configured_key");
     public static final ResourceKey<ConfiguredFeature<?, ?>> EXTRA_LARGE_BLUE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("extra_large_blue_sapphire_vein_configured_key");
+
+    public static final ResourceKey<ConfiguredFeature<?, ?>> EXTRA_SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("extra_small_orange_sapphire_vein_configured_key");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("small_orange_sapphire_vein_configured_key");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> MEDIUM_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("medium_orange_sapphire_vein_configured_key");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("large_orange_sapphire_vein_configured_key");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> EXTRA_LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY = SaphirConfiguredFeatures.register("extra_large_orange_sapphire_vein_configured_key");
 }

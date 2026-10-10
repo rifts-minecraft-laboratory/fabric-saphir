@@ -100,6 +100,90 @@ public class OrePlacedFeatures {
                 )
             )
         ));
+
+        context.register(EXTRA_SMALL_ORANGE_SAPPHIRE_VEIN_PLACED_KEY, new PlacedFeature(
+            configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.EXTRA_SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
+            List.of(
+                CountPlacement.of(8),
+                BiomeFilter.biome(),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.of(
+                    BiasedToBottomHeight.of(
+                        VerticalAnchor.aboveBottom(20),
+                        VerticalAnchor.absolute(16),
+                        8
+                    )
+                )
+            )
+        ));
+
+        context.register(SMALL_ORANGE_SAPPHIRE_VEIN_PLACED_KEY, new PlacedFeature(
+            configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.SMALL_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
+            List.of(
+                CountPlacement.of(8),
+                RarityFilter.onAverageOnceEvery(2),
+                BiomeFilter.biome(),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.of(
+                    BiasedToBottomHeight.of(
+                        VerticalAnchor.aboveBottom(16),
+                        VerticalAnchor.absolute(8),
+                        12
+                    )
+                )
+            )
+        ));
+
+        context.register(MEDIUM_ORANGE_SAPPHIRE_VEIN_PLACED_KEY, new PlacedFeature(
+            configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.MEDIUM_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
+            List.of(
+                CountPlacement.of(6),
+                RarityFilter.onAverageOnceEvery(4),
+                BiomeFilter.biome(),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.of(
+                    BiasedToBottomHeight.of(
+                        VerticalAnchor.aboveBottom(8),
+                        VerticalAnchor.absolute(-8),
+                        16
+                    )
+                )
+            )
+        ));
+
+        context.register(LARGE_ORANGE_SAPPHIRE_VEIN_PLACED_KEY, new PlacedFeature(
+            configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
+            List.of(
+                CountPlacement.of(4),
+                RarityFilter.onAverageOnceEvery(8),
+                BiomeFilter.biome(),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.of(
+                    BiasedToBottomHeight.of(
+                        VerticalAnchor.aboveBottom(12),
+                        VerticalAnchor.absolute(-32),
+                        12
+                    )
+                )
+            )
+        ));
+
+        context.register(EXTRA_LARGE_ORANGE_SAPPHIRE_VEIN_PLACED_KEY, new PlacedFeature(
+            configuredFeatureHolderGetter.getOrThrow(OreConfiguredFeatures.EXTRA_LARGE_ORANGE_SAPPHIRE_VEIN_CONFIGURED_KEY),
+            List.of(
+                CountPlacement.of(2),
+                RarityFilter.onAverageOnceEvery(6),
+                BiomeFilter.biome(),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.of(
+                    BiasedToBottomHeight.of(
+                        VerticalAnchor.aboveBottom(8),
+                        VerticalAnchor.absolute(-40),
+                        8
+                    )
+                )
+            )
+        ));
     }
 
     public static final ResourceKey<PlacedFeature> EXTRA_SMALL_BLUE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("extra_small_blue_sapphire_vein_placed_key");
@@ -107,4 +191,10 @@ public class OrePlacedFeatures {
     public static final ResourceKey<PlacedFeature> MEDIUM_BLUE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("medium_blue_sapphire_vein_placed_key");
     public static final ResourceKey<PlacedFeature> LARGE_BLUE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("large_blue_sapphire_vein_placed_key");
     public static final ResourceKey<PlacedFeature> EXTRA_LARGE_BLUE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("extra_large_blue_sapphire_vein_placed_key");
+
+    public static final ResourceKey<PlacedFeature> EXTRA_SMALL_ORANGE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("extra_small_orange_sapphire_vein_placed_key");
+    public static final ResourceKey<PlacedFeature> SMALL_ORANGE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("small_orange_sapphire_vein_placed_key");
+    public static final ResourceKey<PlacedFeature> MEDIUM_ORANGE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("medium_orange_sapphire_vein_placed_key");
+    public static final ResourceKey<PlacedFeature> LARGE_ORANGE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("large_orange_sapphire_vein_placed_key");
+    public static final ResourceKey<PlacedFeature> EXTRA_LARGE_ORANGE_SAPPHIRE_VEIN_PLACED_KEY = SaphirPlacedFeatures.register("extra_large_orange_sapphire_vein_placed_key");
 }
