@@ -11,31 +11,31 @@ public class SaphirWorldgen {
         BiomeModifications.addFeature(
             BiomeSelectors.foundInOverworld(),
             GenerationStep.Decoration.UNDERGROUND_ORES,
-            OrePlacedFeatures.EXTRA_SMALL_SAPPHIRE_VEIN_PLACED_KEY
+            OrePlacedFeatures.EXTRA_SMALL_BLUE_SAPPHIRE_VEIN_PLACED_KEY
         );
 
         BiomeModifications.addFeature(
             BiomeSelectors.foundInOverworld(),
             GenerationStep.Decoration.UNDERGROUND_ORES,
-            OrePlacedFeatures.SMALL_SAPPHIRE_VEIN_PLACED_KEY
+            OrePlacedFeatures.SMALL_BLUE_SAPPHIRE_VEIN_PLACED_KEY
         );
 
         BiomeModifications.addFeature(
             BiomeSelectors.foundInOverworld(),
             GenerationStep.Decoration.UNDERGROUND_ORES,
-            OrePlacedFeatures.MEDIUM_SAPPHIRE_VEIN_PLACED_KEY
+            OrePlacedFeatures.MEDIUM_BLUE_SAPPHIRE_VEIN_PLACED_KEY
         );
 
         BiomeModifications.addFeature(
             BiomeSelectors.foundInOverworld(),
             GenerationStep.Decoration.UNDERGROUND_ORES,
-            OrePlacedFeatures.LARGE_SAPPHIRE_VEIN_PLACED_KEY
+            OrePlacedFeatures.LARGE_BLUE_SAPPHIRE_VEIN_PLACED_KEY
         );
 
         BiomeModifications.addFeature(
             BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN),
             GenerationStep.Decoration.UNDERGROUND_ORES,
-            OrePlacedFeatures.EXTRA_LARGE_SAPPHIRE_VEIN_PLACED_KEY
+            OrePlacedFeatures.EXTRA_LARGE_BLUE_SAPPHIRE_VEIN_PLACED_KEY
         );
     }
 }
