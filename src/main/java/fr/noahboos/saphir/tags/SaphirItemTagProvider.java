@@ -52,22 +52,28 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
             .add(SaphirItemIds.ORANGE_SAPPHIRE_BOOTS);
 
         builder(ItemTags.SWORDS)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_SWORD);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SWORD)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_SWORD);
 
         builder(ItemTags.SPEARS)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_SPEAR);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SPEAR)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_SPEAR);
 
         builder(ItemTags.PICKAXES)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_PICKAXE);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_PICKAXE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_PICKAXE);
 
         builder(ItemTags.AXES)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_AXE);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_AXE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_AXE);
 
         builder(ItemTags.SHOVELS)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_SHOVEL);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_SHOVEL)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_SHOVEL);
 
         builder(ItemTags.HOES)
-            .add(SaphirItemIds.BLUE_SAPPHIRE_HOE);
+            .add(SaphirItemIds.BLUE_SAPPHIRE_HOE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE_HOE);
 
         builder(ItemTags.TRIMMABLE_ARMOR)
             .add(SaphirItemIds.BLUE_SAPPHIRE_HELMET)

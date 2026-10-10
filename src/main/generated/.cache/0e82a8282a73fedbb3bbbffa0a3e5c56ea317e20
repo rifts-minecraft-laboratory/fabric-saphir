@@ -2,3 +2,4 @@
 b3eb1a6dd211e816fa3e9e83620629190d3265ef data/minecraft/tags/block/mineable/pickaxe.json
 b3eb1a6dd211e816fa3e9e83620629190d3265ef data/minecraft/tags/block/needs_diamond_tool.json
 8669b169e7d1405c2a653b895be76b8eb5f03ff9 data/saphir/tags/block/incorrect_for_blue_sapphire_tool.json
+8669b169e7d1405c2a653b895be76b8eb5f03ff9 data/saphir/tags/block/incorrect_for_orange_sapphire_tool.json

@@ -28,4 +28,10 @@ public class SaphirItemIds {
     public static final ResourceKey<Item> ORANGE_SAPPHIRE_CHESTPLATE = create("orange_sapphire_chestplate");
     public static final ResourceKey<Item> ORANGE_SAPPHIRE_LEGGINGS = create("orange_sapphire_leggings");
     public static final ResourceKey<Item> ORANGE_SAPPHIRE_BOOTS = create("orange_sapphire_boots");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_SWORD = create("orange_sapphire_sword");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_SPEAR = create("orange_sapphire_spear");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_PICKAXE = create("orange_sapphire_pickaxe");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_AXE = create("orange_sapphire_axe");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_SHOVEL = create("orange_sapphire_shovel");
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE_HOE = create("orange_sapphire_hoe");
 }

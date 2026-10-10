@@ -1,14 +1,14 @@
 // 26.2	-999999999-01-01T00:00:00	Saphir/Tags for minecraft:item
-46e1ae61443aad760a382a63e6a9a5c4e3579729 data/minecraft/tags/item/axes.json
+1d09e9684ea193a49773052497a9af4df209f9af data/minecraft/tags/item/axes.json
 6d38666df6fe241cd71e382a7e3d9629f237d3c7 data/minecraft/tags/item/chest_armor.json
 4f5ac8601ebbef470d590d8a5d73165760222972 data/minecraft/tags/item/foot_armor.json
 ffd87f5abe87a25cd247e92f4f845543c5532d73 data/minecraft/tags/item/head_armor.json
-22ab834250ccc05a7dccdd1bc972c29e8abe0825 data/minecraft/tags/item/hoes.json
+ab4c2a85dcf764ba8f64ea39475d9c8740a9c085 data/minecraft/tags/item/hoes.json
 799c7cd38a84024c93ab74d434c10c05b4594f17 data/minecraft/tags/item/leg_armor.json
-32574891d36f91e7290db96b3c542b6792cfb186 data/minecraft/tags/item/pickaxes.json
-168316c6eaa556533b4bb9232d5b1a2f70cbdc83 data/minecraft/tags/item/shovels.json
-ae78ea7e1aa1e8e309c2f8004225ba91498b6ff6 data/minecraft/tags/item/spears.json
-a766c38a88094ee314e80273d330d01bb167d62c data/minecraft/tags/item/swords.json
+aaa796d6b2cc4dba2cfc09ee52042ef64bfea9a7 data/minecraft/tags/item/pickaxes.json
+16e09dc19a9e0bc07c8e445965253ec06b8a4246 data/minecraft/tags/item/shovels.json
+9bdbf98063804793717d730c1a66a88595d0e5d7 data/minecraft/tags/item/spears.json
+06db7dcdb819be16b8081e4b72bee5c28a5c4ec9 data/minecraft/tags/item/swords.json
 89c0750ea22a0193d6b95ace7a13cdafc859a5b2 data/minecraft/tags/item/trim_materials.json
 180df5cddcf92b1c22b0c42a13a45a85081df77f data/minecraft/tags/item/trimmable_armor.json
 f693caaae05eb2ec5e7c7dc9443d6ad50c54202c data/saphir/tags/item/repairs_blue_sapphire_armor.json

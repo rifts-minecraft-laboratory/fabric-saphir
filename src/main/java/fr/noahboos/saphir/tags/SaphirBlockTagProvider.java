@@ -22,9 +22,17 @@ public class SaphirBlockTagProvider extends FabricTagsProvider.BlockTagsProvider
         Saphir.id("incorrect_for_blue_sapphire_tool")
     );
 
+    public static final TagKey<Block> INCORRECT_FOR_ORANGE_SAPPHIRE_TOOL = TagKey.create(
+        Registries.BLOCK,
+        Saphir.id("incorrect_for_orange_sapphire_tool")
+    );
+
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         builder(INCORRECT_FOR_BLUE_SAPPHIRE_TOOL)
+            .addOptionalTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
+
+        builder(INCORRECT_FOR_ORANGE_SAPPHIRE_TOOL)
             .addOptionalTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
 
         builder(BlockTags.MINEABLE_WITH_PICKAXE)

@@ -22,6 +22,10 @@ public class SaphirItems {
             creativeModeTab.accept(BLUE_SAPPHIRE_PICKAXE);
             creativeModeTab.accept(BLUE_SAPPHIRE_AXE);
             creativeModeTab.accept(BLUE_SAPPHIRE_HOE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_SHOVEL);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_PICKAXE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_AXE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_HOE);
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(creativeModeTab -> {
             creativeModeTab.accept(BLUE_SAPPHIRE_HELMET);
@@ -35,6 +39,9 @@ public class SaphirItems {
             creativeModeTab.accept(ORANGE_SAPPHIRE_CHESTPLATE);
             creativeModeTab.accept(ORANGE_SAPPHIRE_LEGGINGS);
             creativeModeTab.accept(ORANGE_SAPPHIRE_BOOTS);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_SWORD);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_SPEAR);
+            creativeModeTab.accept(ORANGE_SAPPHIRE_AXE);
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(creativeModeTab -> {
             creativeModeTab.accept(BLUE_SAPPHIRE);
@@ -166,5 +173,44 @@ public class SaphirItems {
         new Item.Properties()
             .humanoidArmor(OrangeSapphireArmorMaterial.INSTANCE, ArmorType.BOOTS)
             .durability(ArmorType.BOOTS.getDurability(OrangeSapphireArmorMaterial.BASE_DURABILITY))
+    );
+
+    public static final Item ORANGE_SAPPHIRE_SWORD = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_SWORD,
+        Item::new,
+        new Item.Properties()
+            .sword(BlueSapphireToolMaterial.INSTANCE, 3.0f, -2.4f)
+    );
+
+    public static final Item ORANGE_SAPPHIRE_SPEAR = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_SPEAR,
+        Item::new,
+        new Item.Properties()
+            .spear(BlueSapphireToolMaterial.INSTANCE, 1.10f, 1.1375f, 0.45f, 2.75f, 9.5f, 6.0f, 5.1f, 9.375f, 4.6f)
+    );
+
+    public static final Item ORANGE_SAPPHIRE_PICKAXE = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_PICKAXE,
+        Item::new,
+        new Item.Properties()
+            .pickaxe(BlueSapphireToolMaterial.INSTANCE, 1.0f, -2.8f)
+    );
+
+    public static final Item ORANGE_SAPPHIRE_AXE = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_AXE,
+        settings -> new AxeItem(BlueSapphireToolMaterial.INSTANCE, 5.0f, -3.0f, settings),
+        new Item.Properties()
+    );
+
+    public static final Item ORANGE_SAPPHIRE_SHOVEL = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_SHOVEL,
+        settings -> new ShovelItem(BlueSapphireToolMaterial.INSTANCE, 1.5f, -3.0f, settings),
+        new Item.Properties()
+    );
+
+    public static final Item ORANGE_SAPPHIRE_HOE = register(
+        SaphirItemIds.ORANGE_SAPPHIRE_HOE,
+        settings -> new HoeItem(BlueSapphireToolMaterial.INSTANCE, -3.0f, 0.0f, settings),
+        new Item.Properties()
     );
 }
