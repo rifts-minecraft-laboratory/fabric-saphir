@@ -162,59 +162,59 @@ public class SaphirRecipeProvider extends FabricRecipeProvider {
                     .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
                     .save(output);
 
-//                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_SWORD, 1)
-//                    .pattern("a")
-//                    .pattern("a")
-//                    .pattern("b")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
-//
-//                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_SPEAR, 1)
-//                    .pattern("  a")
-//                    .pattern(" b ")
-//                    .pattern("b  ")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
-//
-//                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_PICKAXE, 1)
-//                    .pattern("aaa")
-//                    .pattern(" b ")
-//                    .pattern(" b ")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
-//
-//                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_AXE, 1)
-//                    .pattern("aa")
-//                    .pattern("ba")
-//                    .pattern("b ")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
-//
-//                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_SHOVEL, 1)
-//                    .pattern("a")
-//                    .pattern("b")
-//                    .pattern("b")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
-//
-//                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_HOE, 1)
-//                    .pattern("aa")
-//                    .pattern("b ")
-//                    .pattern("b ")
-//                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
-//                    .define('b', Items.STICK)
-//                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
-//                    .save(output);
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_SWORD, 1)
+                    .pattern("a")
+                    .pattern("a")
+                    .pattern("b")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.COMBAT, SaphirItems.ORANGE_SAPPHIRE_SPEAR, 1)
+                    .pattern("  a")
+                    .pattern(" b ")
+                    .pattern("b  ")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_PICKAXE, 1)
+                    .pattern("aaa")
+                    .pattern(" b ")
+                    .pattern(" b ")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_AXE, 1)
+                    .pattern("aa")
+                    .pattern("ba")
+                    .pattern("b ")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_SHOVEL, 1)
+                    .pattern("a")
+                    .pattern("b")
+                    .pattern("b")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
+
+                shaped(RecipeCategory.TOOLS, SaphirItems.ORANGE_SAPPHIRE_HOE, 1)
+                    .pattern("aa")
+                    .pattern("b ")
+                    .pattern("b ")
+                    .define('a', SaphirItems.ORANGE_SAPPHIRE)
+                    .define('b', Items.STICK)
+                    .unlockedBy("has_blue_sapphire", has(SaphirItems.ORANGE_SAPPHIRE))
+                    .save(output);
             }
         };
     }

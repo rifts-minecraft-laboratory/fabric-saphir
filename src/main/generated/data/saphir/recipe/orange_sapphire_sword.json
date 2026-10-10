@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": "saphir:orange_sapphire",
+    "b": "minecraft:stick"
+  },
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "result": {
+    "id": "saphir:orange_sapphire_sword"
+  }
+}
