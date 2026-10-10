@@ -1,6 +1,6 @@
 # *Saphir*
 
-*Saphir* is a Minecraft modifier that introduces a new resource: Sapphire. Found in the Overworld, sapphire can be used to craft a complete set of armour, tools, and weapons. Its equipment currently sits between diamond and netherite in terms of overall progression and utility. It gives players a new set of equipment to obtain as they develop their world.
+*Saphir* is a Minecraft modifier that introduces new resources: Blue and orange sapphires. Found in the Overworld, these resources can be used to craft two distinct complete sets of armour, tools, and weapons. These equipments currently sit between diamond and netherite in terms of overall progression and utility. It gives players a new set of equipment to obtain as they develop their world.
 
 ## Design philosophy
 
@@ -8,22 +8,23 @@ The purpose of *Saphir* is to enrich the Minecraft experience by introducing new
 
 While I enjoy collecting different sets of gear, I believe that adding items solely for the sake of completion has little value if they do not serve a clear purpose. For this reason, the resources added by *Saphir* are deliberately challenging to obtain. The equipment crafted from these resources is positioned between diamond and netherite. However, this system is not necessarily in its final form. 
 
-The long-term goal is to give sapphire its own identity as a meaningful alternative to netherite, rather than placing it strictly on a lower, equal, or higher tier. Sapphire equipment is intended to offer not only distinct mechanical strengths and weaknesses, but also a new aesthetic choice—allowing players to express their style through unique visuals while still making a genuine gameplay decision.
+The long-term goal is to give the different types of sapphire a common identity that distinguishes them from other resources. This common identity aims to distinguish them as a meaningful alternative to netherite, rather than placing them strictly on a lower, equal, or higher tier. Sapphire equipment is intended to offer not only distinct mechanical strengths and weaknesses, but also new aesthetic choices—allowing players to express their style through unique visuals while still making a genuine gameplay decision.
 
 Sapphire equipment should therefore have its own strengths and weaknesses, with statistics or mechanics that support specific playstyles. The goal is not to create a strictly superior material, but to offer a genuine choice.
 
-
 > If you've read this far, here is another mod, [*Rubis*](https://github.com/rifts-minecraft-laboratory/fabric-rubis). The idea is to create a duality between sapphire and ruby, where certain pieces of equipment from one material outperform their counterparts. Playing with both mods is therefore recommended. :3
 > 
-> Additionally, in a future update, other varieties of sapphire will be introduced, as sapphires can come in different colours!
+> Additionally, in a future update, a last variety of sapphire will be introduced, as sapphires can come in different colours!
 
 ## License
 
-This project is licensed under the Rift Source-Available Project License v1.0 (RSAPLv1.0). Feel free to use this licence at your convenience. :D
+This project is licensed under the MIT Licence.
 
 ___
 
-This document has been written with the help of ChatGPT and Perplexity AI. Everything has been read, verified, and edited in order for the text to fully reflect my state of mind about this Minecraft modifier.
+This is the third version of this document.
+
+The first version of this document has been written with the help of ChatGPT and Perplexity AI. Everything has been read, verified, and edited in order for the text to fully reflect my state of mind about this Minecraft modifier.
 
 ___
 
