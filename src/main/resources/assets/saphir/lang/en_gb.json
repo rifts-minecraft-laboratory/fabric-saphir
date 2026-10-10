@@ -10,8 +10,10 @@
   "item.saphir.blue_sapphire_axe": "Blue sapphire axe",
   "item.saphir.blue_sapphire_shovel": "Blue sapphire shovel",
   "item.saphir.blue_sapphire_hoe": "Blue sapphire hoe",
+  "item.saphir.orange_sapphire": "Orange sapphire",
   "block.saphir.blue_sapphire_block": "Blue sapphire block",
   "block.saphir.blue_sapphire_ore": "Blue sapphire ore",
   "block.saphir.deepslate_blue_sapphire_ore": "Deepslate blue sapphire ore",
   "trim_material.saphir.blue_sapphire": "Blue sapphire material",
+  "trim_material.saphir.orange_sapphire": "Orange sapphire material"
 }

@@ -10,4 +10,9 @@ public class SaphirTrimMaterials {
         Registries.TRIM_MATERIAL,
         Saphir.id("blue_sapphire")
     );
+
+    public static final ResourceKey<TrimMaterial> ORANGE_SAPPHIRE_TRIM_MATERIAL = ResourceKey.create(
+        Registries.TRIM_MATERIAL,
+        Saphir.id("orange_sapphire")
+    );
 }

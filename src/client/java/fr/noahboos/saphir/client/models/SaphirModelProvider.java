@@ -26,6 +26,7 @@ public class SaphirModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         Saphir.LOGGER.info("Generating {}'s item models.", Saphir.MOD_ID);
+        Saphir.LOGGER.info("Generating blue sapphire item models.");
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_HELMET, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_CHESTPLATE, ModelTemplates.FLAT_ITEM);
@@ -37,6 +38,10 @@ public class SaphirModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(SaphirItems.BLUE_SAPPHIRE_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        Saphir.LOGGER.info("Generated blue sapphire item models.");
+        Saphir.LOGGER.info("Generating orange sapphire item models.");
+        itemModelGenerators.generateFlatItem(SaphirItems.ORANGE_SAPPHIRE, ModelTemplates.FLAT_ITEM);
+        Saphir.LOGGER.info("Generated orange sapphire item models.");
         Saphir.LOGGER.info("Generated {}'s item models.", Saphir.MOD_ID);
     }
 

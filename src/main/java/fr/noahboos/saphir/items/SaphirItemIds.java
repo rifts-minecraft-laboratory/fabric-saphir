@@ -22,4 +22,6 @@ public class SaphirItemIds {
     public static final ResourceKey<Item> BLUE_SAPPHIRE_AXE = create("blue_sapphire_axe");
     public static final ResourceKey<Item> BLUE_SAPPHIRE_SHOVEL = create("blue_sapphire_shovel");
     public static final ResourceKey<Item> BLUE_SAPPHIRE_HOE = create("blue_sapphire_hoe");
+
+    public static final ResourceKey<Item> ORANGE_SAPPHIRE = create("orange_sapphire");
 }

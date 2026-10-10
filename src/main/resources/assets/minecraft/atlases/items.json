@@ -10,7 +10,8 @@
       ],
       "palette_key": "minecraft:trims/color_palettes/trim_palette",
       "permutations": {
-        "blue_sapphire": "saphir:trims/color_palettes/blue_sapphire"
+        "blue_sapphire": "saphir:trims/color_palettes/blue_sapphire",
+        "orange_sapphire": "saphir:trims/color_palettes/orange_sapphire"
       }
     }
   ]

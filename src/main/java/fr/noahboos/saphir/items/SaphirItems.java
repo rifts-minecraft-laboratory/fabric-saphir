@@ -33,6 +33,7 @@ public class SaphirItems {
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(creativeModeTab -> {
             creativeModeTab.accept(BLUE_SAPPHIRE);
+            creativeModeTab.accept(ORANGE_SAPPHIRE);
         });
         Saphir.LOGGER.info("Initialized {}'s items.", Saphir.MOD_ID);
     }
@@ -121,5 +122,12 @@ public class SaphirItems {
         SaphirItemIds.BLUE_SAPPHIRE_HOE,
         settings -> new HoeItem(BlueSapphireToolMaterial.INSTANCE, -3.0f, 0.0f, settings),
         new Item.Properties()
+    );
+
+    public static final Item ORANGE_SAPPHIRE = register(
+        SaphirItemIds.ORANGE_SAPPHIRE,
+        Item::new,
+        new Item.Properties()
+            .trimMaterial(SaphirTrimMaterials.ORANGE_SAPPHIRE_TRIM_MATERIAL)
     );
 }

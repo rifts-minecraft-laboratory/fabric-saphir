@@ -64,6 +64,7 @@ public class SaphirItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
             .add(SaphirItemIds.BLUE_SAPPHIRE_BOOTS);
 
         builder(ItemTags.TRIM_MATERIALS)
-            .add(SaphirItemIds.BLUE_SAPPHIRE);
+            .add(SaphirItemIds.BLUE_SAPPHIRE)
+            .add(SaphirItemIds.ORANGE_SAPPHIRE);
     }
 }
